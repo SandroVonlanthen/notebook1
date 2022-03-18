@@ -2,12 +2,11 @@
 
 
 
-from urllib import request
+import requests
 from bs4 import BeautifulSoup
 
-
-res = request.urlopen("http://forecast.weather.gov/MapClick.php?lat=21.3049&lon=-157.8579")
-soup = BeautifulSoup(res, 'html.parser')
+res = requests.get("http://forecast.weather.gov/MapClick.php?lat=21.3049&lon=-157.8579")
+soup = BeautifulSoup(res.content, 'html.parser')
 
 #temp = soup.find(id_ =  "detailed-forecast-body")
 
