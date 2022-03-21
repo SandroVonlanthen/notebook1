@@ -10,5 +10,3 @@ soup = BeautifulSoup(res.content, 'html.parser')
 temp_F = soup.find(class_ =  "myforecast-current-lrg").getText()
 temp_C  = soup.find(class_ =  "myforecast-current-sm").getText()
 
-print (temp_C)
-print(temp_F)
