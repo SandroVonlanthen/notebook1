@@ -364,3 +364,20 @@ DevTools listening on ws://localhost:60340/devtools/browser/deb06166-f2fb-40a1-8
 1648648812833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1648648849768	Marionette	INFO	Stopped listening on port 60346
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648671092732	geckodriver	INFO	Listening on 127.0.0.1:57548
+1648671095841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57549" "-no-remote" "-profile" "C:\\Users\\sandr\\AppData\\Local\\Temp\\rust_mozprofilema8MA2"
+1648671097530	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sandr\\AppData\\Local\\Temp\\rust_mozprofilema8MA2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57549/devtools/browser/403d9f35-00e6-4af8-89db-8bd1c07a1ef3
+1648671101594	Marionette	INFO	Listening on port 57557
+1648671101723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.chess.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.chess.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.chess.com/bundles/app/js/navigation.client.be3b1257.js, line 1: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/home.client.941e2440.js, line 1: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/home.client.941e2440.js, line 1: Error: Request aborted
+JavaScript error: , line 0: uncaught exception: Object
+1648671122748	Marionette	INFO	Stopped listening on port 57557
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
